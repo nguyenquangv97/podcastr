@@ -37,7 +37,6 @@ const PodcastCard = ({
           </h2>
         </div>
       </figure>
-      PodcastCard
     </div>
   );
 };
