@@ -19,7 +19,7 @@ const RightSidebar = () => {
   if (!topPodcasters) return <LoaderSpinner />;
   return (
     <section
-      className={cn('right_sidebar h-[calc(100vh - 5px]', {
+      className={cn('right_sidebar h-[calc(100vh - 5px] text-white-1', {
         'h-[calc(100vh-140px)]': audio?.audioUrl
       })}
     >
